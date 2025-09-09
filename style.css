@@ -42,7 +42,7 @@ ul li a:hover {color: #000;}
 
 .text-and-photo .photo {
   flex: 2;
-  max-width: 200px;}
+  max-width: 300px;}
 
 .text-and-photo .photo img {
   width: 100%;
