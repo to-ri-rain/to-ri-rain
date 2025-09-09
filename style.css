@@ -1,27 +1,19 @@
-body {
-  background-color: #fcfcfc;
+body {background-color: #fffff9;
   color: #333;
   font-family: 'Georgia', serif;
   padding: 6em;
   max-width: 700px;
   margin: auto;
   line-height: 2;
-  font-size: 16px;
-}
+  font-size: 16px;}
 
-h1 {
-  font-size: 24px;
+h1 {font-size: 24px;
   color: #111;
   margin-bottom: 1em;
-  text-align: left;
-}
+  text-align: left;}
 
-a {
-  text-decoration: none;
+a {text-decoration: none;
   color: #666;
-  font-style: italic;
-}
+  font-style: italic;}
 
-a:hover {
-  color: #000;
-}
+a:hover {  color: #000;}
