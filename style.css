@@ -30,12 +30,30 @@ ul li {margin-bottom: 0.5em;}
 ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
 ul li a:hover {color: #000;}
 
-.photo img {
-  width: 50%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
+.hero {
+  position: relative;
+  width: 100%;
 }
+
+.hero img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 2em;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
 
 
 a:hover {  color: #000;}
