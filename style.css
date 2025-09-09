@@ -32,7 +32,7 @@ ul li a:hover {color: #000;}
 
 .text-and-photo {
   display: flex;
-  position: absolute
+  position: absolute;
   align-items: flex-start;
   margin-bottom: 2em;}
 
