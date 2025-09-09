@@ -32,12 +32,14 @@ ul li a:hover {color: #000;}
 
 .text-and-photo {
   display: flex;
-  position: absolute;
+  gap: 2em;
   align-items: flex-start;
-  margin-bottom: 2em;}
+  max-width: 200px;
+  margin-bottom: 1em;}
 
 .text-and-photo .text {
-  flex: 2;}
+  flex: 2;
+  color: #202f55;}
 
 .text-and-photo .photo {
   flex: 2;
