@@ -9,12 +9,19 @@ body {font-family: 'Zen Kaku Gothic New', sans-serif;}
 
 
 h1 {font-size: 24px;
-  color: #111;
+  color: #202f55;
   margin-bottom: 1em;
   text-align: left;}
 
 a {text-decoration: none;
-  color: #666;
+  color: #202f55;
   font-style: italic;}
+
+ul li {margin-bottom: 0.5em;}
+ul li a {font-size: 1.1em;
+  text-decoration: none;
+  color: #555;}
+ul li a: hover {color: #000;}
+
 
 a:hover {  color: #000;}
