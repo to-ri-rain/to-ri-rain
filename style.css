@@ -31,11 +31,9 @@ ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;}
 ul li a:hover {color: #000;}
 
 .hero-image img {
-  width: 600%;
+  width: 50%;
   height: auto;
   display: block;
-  object-fit: cover;
-  max-height: 70vh;
 }
 
 
