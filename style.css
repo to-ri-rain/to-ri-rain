@@ -44,7 +44,7 @@ ul li a:hover {color: #000;}
 
 .hero-text {
   position: absolute;
-  bottom: 10%;
+  bottom: -1.5em;
   left: 50%;
   transform: translateX(-50%);
   color: white;
