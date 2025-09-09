@@ -30,25 +30,13 @@ ul li {margin-bottom: 0.5em;}
 ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
 ul li a:hover {color: #000;}
 
-.text-and-photo {
-  display: flex;
-  gap: 2em;
-  align-items: flex-start;
-  margin-bottom: 1em;}
-
-.text-and-photo .text {
-  flex: 2;
-  color: #202f55;}
-
-.text-and-photo .photo {
-  flex: 2;
-  max-width: 300px;}
-
-.text-and-photo .photo img {
+.hero-image img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);}
+  display: block;
+  object-fit: cover;
+  max-height: 70vh;
+}
 
 
 a:hover {  color: #000;}
