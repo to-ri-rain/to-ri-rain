@@ -34,7 +34,6 @@ ul li a:hover {color: #000;}
   display: flex;
   gap: 2em;
   align-items: flex-start;
-  max-width: 200px;
   margin-bottom: 1em;}
 
 .text-and-photo .text {
