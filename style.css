@@ -17,6 +17,15 @@ a {text-decoration: none;
   color: #202f55;
   font-style: italic;}
 
+.subtext {
+  font-size: 0.9em;
+  color: #202f55;
+  margin-top: -0.5em;
+  margin-bottom: 2em;
+  font-style: italic;
+  line-height: 1.6;
+}
+
 ul li {margin-bottom: 0.5em;}
 ul li a {font-size: 1.1em;
   text-decoration: none;
