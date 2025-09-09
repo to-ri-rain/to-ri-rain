@@ -41,7 +41,7 @@ ul li a:hover {color: #000;}
   color: #202f55;}
 
 .text-and-photo .photo {
-  flex: 2;
+  flex: 1;
   max-width: 200px;}
 
 .text-and-photo .photo img {
