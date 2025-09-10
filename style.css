@@ -13,6 +13,23 @@ h1 {font-size: 24px;
   margin-bottom: 1em;
   text-align: left;}
 
+.hero img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-text {
+  white-space: nowrap;
+  color: #202f55;
+  font-size: 1em;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-shadow: none;
+  text-align: left;
+  bottom: 5%;
+}
+
 a {text-decoration: none;
   color: #202f55;
   font-style: italic;}
@@ -35,23 +52,7 @@ ul li a:hover {color: #000;}
   width: 100%;
 }
 
-.hero img {
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
-  display: block;
-}
 
-.hero-text {
-  white-space: nowrap;
-  color: #202f55;
-  font-size: 1em;
-  font-family: 'Zen Maru Gothic', sans-serif;
-  text-shadow: none;
-  text-align: left;
-  position: absolute;
-  bottom: 5%;
-}
 
 
 
