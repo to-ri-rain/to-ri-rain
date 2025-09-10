@@ -17,7 +17,7 @@ h1 {font-size: 24px;
 
 .hero img {
   width: 120%;
-  height: 120vh;
+  height: 100vh;
   object-fit: cover;
   display: block;
 }
@@ -33,7 +33,7 @@ h1 {font-size: 24px;
   font-family: 'Zen Maru Gothic', sans-serif;
   text-shadow: none;
   text-align: left;
-  bottom: 1%;
+  bottom: 0%;
   position: absolute;
   left: 2%;
   transform: translateX(0%);
