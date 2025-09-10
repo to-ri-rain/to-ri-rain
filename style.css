@@ -44,15 +44,16 @@ ul li a:hover {color: #000;}
 
 .hero-text {
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  font-size: 2em;
-  text-align: center;
   color: white;
+  font-size: 2em;
   font-family: 'Zen Maru Gothic', sans-serif;
   text-shadow: 0 0 10px rgba(0,0,0,0.6);
-  }
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
 
 
