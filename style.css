@@ -74,9 +74,6 @@ body {
   margin: 4em auto;
 }
 
-ul li a {
-  transition: opacity 0.2s ease, letter-spacing 0.2s ease;
-}
 
 hr {
   border: none;
