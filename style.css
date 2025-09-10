@@ -36,20 +36,23 @@ ul li a:hover {color: #000;}
 }
 
 .hero img {
-  width: 50%;
+  width: 80%;
   height: 80vh;
   object-fit: cover;
   display: block;
 }
 
 .hero-text {
-  bottom: 1em;
-  left: 50%;
-  transform: translateX(-50%);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
   font-size: 2em;
-  font-family: 'Zen Maru Gothic', sans-serif;
   text-align: center;
-}
+  color: white;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+  }
 
 
 
