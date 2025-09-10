@@ -6,7 +6,7 @@ body {
   max-width: 800px;
   margin: 4em auto;
   line-height: 2;
-  font-size: 16px; /* ←ここ直した！ */
+  font-size: 16px;
   border-radius: 24px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
@@ -15,19 +15,23 @@ h1, h2 {
   font-weight: normal;
 }
 
-h1 {font-size: 24px;
-    font-weight: normal;
+h1 {
+  font-size: 24px;
+  font-weight: normal;
   color: #202f55 !important;
   margin-bottom: 1em;
   font-style: italic;
-  text-align: left;}
+  text-align: left;
+}
 
-h2 {font-size: 18px;
-    font-weight: normal;
+h2 {
+  font-size: 18px;
+  font-weight: normal;
   color: #202f55 !important;
   margin-bottom: 1em;
   font-style: italic;
-  text-align: left;}
+  text-align: left;
+}
 
 .hero {
   aspect-ratio: 1 / 1;
@@ -59,29 +63,37 @@ h2 {font-size: 18px;
   transform: translateX(0%);
 }
 
-a {text-decoration: none;
+a {
+  text-decoration: none;
   color: #202f55;
-  font-style: italic;}
-
-.subtext {
-  font-size: 0.9em;
-  color: rgba(32, 47, 85, 0.7);
-  margin-top: -0.5em;
-  margin-bottom: 2em;
   font-style: italic;
-  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #000;
+  letter-spacing: 1px;
+  opacity: 0.8;
 }
 
 ul, ul li {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 
+ul li {
+  margin-bottom: 0.5em;
+}
 
-main ul li a {
+ul li a {
   font-size: 1.1em;
   text-decoration: none;
   color: #202f55;
+}
+
+ul li a:hover {
+  color: #000;
 }
 
 .intro {
@@ -94,38 +106,16 @@ main ul li a {
   opacity: 0.85;
 }
 
-ul li {margin-bottom: 0.5em;} 
-ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
-ul li a:hover {color: #000;}
-
-
 html {
   scroll-behavior: smooth;
 }
 
-.toc ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 2em;
-}
-
-.toc li {
-  margin-bottom: 0.5em;
-}
-
-.toc a {
-  font-size: 1em;
-  color: #202f55;
-  text-decoration: underline;
-  font-style: italic;
-}
-
 .toc {
-  background-color: rgba(255, 255, 255, 0.4); /* 半透明の白 */
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 1.5em;
-  border-radius: 16px; /* ← 丸み！ */
+  border-radius: 16px;
   margin-bottom: 2em;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ほんのり影 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -155,24 +145,10 @@ html {
   opacity: 0.8;
 }
 
-
 hr {
   border: none;
   border-top: 1px solid rgba(32, 47, 85, 0.3);
   margin: 2em 0;
-}
-
-a {
-  text-decoration: none;
-  color: #202f55;
-  font-style: italic;
-  transition: all 0.3s ease;
-}
-
-a:hover {
-  color: #000;
-  letter-spacing: 1px;
-  opacity: 0.8;
 }
 
 .fade-in {
@@ -181,17 +157,9 @@ a:hover {
   animation: fadeInUp 1.5s ease forwards;
 }
 
-.fade-in:nth-of-type(1) {
-  animation-delay: 0s;
-}
-
-.fade-in:nth-of-type(2) {
-  animation-delay: 1.2s;
-}
-
-.fade-in:nth-of-type(3) {
-  animation-delay: 2.2s;
-}
+.fade-in:nth-of-type(1) { animation-delay: 0s; }
+.fade-in:nth-of-type(2) { animation-delay: 1.2s; }
+.fade-in:nth-of-type(3) { animation-delay: 2.2s; }
 
 @keyframes fadeInUp {
   to {
@@ -200,21 +168,22 @@ a:hover {
   }
 }
 
-a:hover {  color: #000;}
-
+/* 共通カードスタイル */
 .card {
-  background-color: rgba(255, 255, 255, 0.15); /* 白すぎずやわらかい */
-  backdrop-filter: blur(6px); /* ガラス感！ */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* 境界をほんのり見せる */
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   padding: 1.5em;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
 }
 
+.card:hover {
+  transform: translateY(-6px);
+}
 
-/* --- project page 用スタイル追加ここから --- */
-
+/* project ページ */
 .project-page {
   padding-top: 2em;
 }
@@ -240,16 +209,6 @@ a:hover {  color: #000;}
   gap: 2em;
   margin-bottom: 3em;
 }
-
-.project-card {
-  background-color: rgba(255, 255, 255, 0.4);
-  padding: 1.5em;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
 
 .project-card h2 {
   font-size: 18px;
@@ -283,10 +242,7 @@ a:hover {  color: #000;}
   letter-spacing: 0.5px;
 }
 
-/* --- project page 用スタイル追加ここまで --- */
-
-/* --- fiction page 用スタイル追加ここから --- */
-
+/* fiction ページ */
 .fiction-page {
   padding-top: 2em;
 }
@@ -298,23 +254,28 @@ a:hover {  color: #000;}
   line-height: 1.8;
 }
 
-/* 横長スライダー部分 */
 .highlight-carousel {
   display: flex;
   overflow-x: auto;
   gap: 1.5em;
-  margin-bottom: 3em;
   scroll-snap-type: x mandatory;
-  padding-bottom: 1em;
+  scroll-padding: 0 2em;
+  padding: 1em 2em;
+  margin: 0 -2em 3em;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.highlight-carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .highlight-card {
-  flex: 0 0 100%;
-  border-radius: 20px;
   display: flex;
   align-items: center;
-  scroll-snap-align: center;
   overflow: hidden;
+  flex: 0 0 85%;
+  scroll-snap-align: center;
 }
 
 .highlight-card img {
@@ -327,51 +288,52 @@ a:hover {  color: #000;}
   padding: 2em;
 }
 
-.highlight-text h2 {
-  font-size: 20px;
-  font-style: italic;
-  margin-bottom: 0.5em;
+.highlight-text h2 a {
   color: #202f55;
-}
-
-.highlight-text p {
-  font-size: 0.95em;
   font-style: italic;
-  color: rgba(32, 47, 85, 0.9);
-  margin-bottom: 1em;
-}
-
-.highlight-text a {
-  font-style: italic;
-  font-weight: normal;
-  color: #202f55;
   text-decoration: none;
+  border-bottom: 1px solid transparent;
   transition: all 0.3s ease;
 }
 
-.highlight-text a:hover {
+.highlight-text h2 a:hover {
   color: #000;
   letter-spacing: 0.5px;
+  border-bottom: 1px solid #000;
 }
 
-.highlight-card:hover {
-  transform: translateY(-6px);
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 1.5em;
+  padding: 0.3em 0.6em;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+  z-index: 10;
 }
 
-/* 三列グリッド */
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-btn.left {
+  left: -1.5em;
+}
+
+.carousel-btn.right {
+  right: -1.5em;
+}
+
 .fiction-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 2em;
   margin-bottom: 3em;
-}
-
-.fiction-card {
-  padding: 1.5em;
-}
-
-.fiction-card:hover {
-  transform: translateY(-6px);
 }
 
 .fiction-card h3 {
@@ -387,5 +349,3 @@ a:hover {  color: #000;}
   font-style: italic;
   color: rgba(32, 47, 85, 0.9);
 }
-
-/* --- fiction page 用スタイル追加ここまで --- */
