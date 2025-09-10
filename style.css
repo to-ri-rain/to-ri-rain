@@ -111,12 +111,15 @@ html {
 }
 
 .toc {
-  background-color: rgba(163, 185, 224, 0.2); /* ←背景色ベースの透明 */
-  border: 1px solid rgba(163, 185, 224, 0.4);
-  border-radius: 20px;
+  background-color: #ffffff;
   padding: 1.5em;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease;
+  border-radius: 16px;
+  margin-bottom: 2em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
