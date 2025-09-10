@@ -292,36 +292,35 @@ a:hover {  color: #000;}
 }
 
 /* 横長スライダー部分 */
-.highlight-carousel {
-  display: flex;
-  overflow-x: auto;
-  gap: 1.5em;
-  scroll-snap-type: x mandatory;
-  scroll-padding: 0 2em;
-  padding: 1em 2em;
-  margin: 0 -2em 3em;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+.highlight-wrapper {
+  position: relative;
 }
 
-.highlight-carousel::-webkit-scrollbar {
-  display: none;
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 1.5em;
+  padding: 0.3em 0.6em;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background 0.3s;
+  z-index: 10;
 }
 
-.highlight-card {
-  flex: 0 0 90%;
-  scroll-snap-align: center;
-  border-radius: 20px;
-  overflow: hidden;
-  background-color: rgba(255,255,255,0.4);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  transition: transform 0.3s ease;
+.carousel-btn:hover {
+  background: rgba(255, 255, 255, 0.9);
 }
 
-.highlight-card:hover {
-  transform: scale(1.02);
+.carousel-btn.left {
+  left: -1.5em;
+}
+
+.carousel-btn.right {
+  right: -1.5em;
 }
 
 
