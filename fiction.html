@@ -5,24 +5,114 @@
   <title>fiction</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #a3b9e0;
+      color: #202f55;
+      font-family: 'Zen Maru Gothic', sans-serif;
+      padding: 6em 1em;
+      max-width: 1000px;
+      margin: auto;
+      line-height: 2;
+      font-size: 16px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-style: italic;
+      margin-bottom: 1em;
+    }
+
+    .fiction-lead {
+      font-style: italic;
+      color: rgba(32, 47, 85, 0.8);
+      margin-bottom: 2em;
+    }
+
+    .fiction-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2em;
+    }
+
+    .fiction-card {
+      background: rgba(255, 255, 255, 0.4);
+      padding: 1.5em;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .fiction-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .fiction-card h2 {
+      font-size: 18px;
+      margin-top: 0;
+      font-style: italic;
+    }
+
+    .fiction-card p {
+      font-size: 0.95em;
+      margin-bottom: 1em;
+      font-style: italic;
+    }
+
+    .fiction-card a {
+      font-weight: bold;
+      color: #202f55;
+      font-style: italic;
+      border-bottom: 1px solid #202f55;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .fiction-card a:hover {
+      color: #000;
+      border-bottom: 2px solid #000;
+      letter-spacing: 0.5px;
+    }
+  </style>
 </head>
 <body>
-
-  <ul>
-    <h1>fiction</h1>
-    <p class="subtext">紹介文</p>
-    <hr>
-    <!-- 以下略 -->
-  </ul>
-
   <main>
-    <h1>ここにページの中身</h1>
-    <p>必要に応じて段落や画像など追加</p>
+    <h1>fiction</h1>
+    <p class="fiction-lead">わたしの物語、わたしの断片。展示と遊びの小さな遊園地。</p>
+
+    <div class="fiction-grid">
+      <div class="fiction-card">
+        <h2>Mine（小説）</h2>
+        <p>「愛」と「独占」の狭間で揺れるふたりの物語。</p>
+        <a href="#">読む</a>
+      </div>
+
+      <div class="fiction-card">
+        <h2>羽游野 キャラ紹介</h2>
+        <p>魔性ver3。どこまで無自覚で、どこまで計算か。</p>
+        <a href="#">ひらく</a>
+      </div>
+
+      <div class="fiction-card">
+        <h2>短編ゲーム：透過の家</h2>
+        <p>“だれもいない家”で起きたこと。マウス操作で進行。</p>
+        <a href="#">遊ぶ</a>
+      </div>
+
+      <div class="fiction-card">
+        <h2>詩の断片</h2>
+        <p>「読む本があるのに、表紙を撫でて読んだ気になった。」</p>
+        <a href="#">もっと読む</a>
+      </div>
+
+      <div class="fiction-card">
+        <h2>No shoreの世界観</h2>
+        <p>バンド、ファッション、愛と孤独。すべての起点。</p>
+        <a href="#">のぞく</a>
+      </div>
+    </div>
   </main>
-
-  <a href="index.html">はじまりへ</a>
-
 </body>
 </html>
