@@ -270,3 +270,110 @@ a:hover {  color: #000;}
 
 /* --- project page 用スタイル追加ここまで --- */
 
+/* --- fiction page 用スタイル追加ここから --- */
+
+.fiction-page {
+  padding-top: 2em;
+}
+
+.fiction-lead {
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.8);
+  margin-bottom: 2.5em;
+  line-height: 1.8;
+}
+
+/* 横長スライダー部分 */
+.highlight-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 1.5em;
+  margin-bottom: 3em;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1em;
+}
+
+.highlight-card {
+  flex: 0 0 100%;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.highlight-card img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+}
+
+.highlight-text {
+  padding: 2em;
+}
+
+.highlight-text h2 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  color: #202f55;
+}
+
+.highlight-text p {
+  font-size: 0.95em;
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.9);
+  margin-bottom: 1em;
+}
+
+.highlight-text a {
+  font-style: italic;
+  font-weight: bold;
+  color: #202f55;
+  text-decoration: none;
+  border-bottom: 1px solid #202f55;
+  transition: all 0.3s ease;
+}
+
+.highlight-text a:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+  letter-spacing: 0.5px;
+}
+
+/* 三列グリッド */
+.fiction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.fiction-card {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1.5em;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.fiction-card:hover {
+  transform: translateY(-6px);
+}
+
+.fiction-card h3 {
+  font-size: 18px;
+  font-style: italic;
+  color: #202f55;
+  margin-top: 0;
+}
+
+.fiction-card p {
+  font-size: 0.9em;
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.9);
+}
+
+/* --- fiction page 用スタイル追加ここまで --- */
