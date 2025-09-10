@@ -330,7 +330,7 @@ a:hover {  color: #000;}
 
 .highlight-text a {
   font-style: italic;
-  font-weight: bold;
+  font-weight: normal;
   color: #202f55;
   text-decoration: none;
   border-bottom: 1px solid #202f55;
@@ -364,10 +364,11 @@ a:hover {  color: #000;}
 }
 
 .fiction-card h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
   color: #202f55;
   margin-top: 0;
+  font-weight: normal;
 }
 
 .fiction-card p {
