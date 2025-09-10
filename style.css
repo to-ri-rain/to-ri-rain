@@ -295,58 +295,34 @@ a:hover {  color: #000;}
   display: flex;
   overflow-x: auto;
   gap: 1.5em;
-  margin-bottom: 3em;
   scroll-snap-type: x mandatory;
-  padding-bottom: 1em;
+  scroll-padding: 0 2em;
+  padding: 1em 2em;
+  margin: 0 -2em 3em;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.highlight-carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .highlight-card {
-  flex: 0 0 100%;
-  background: rgba(255, 255, 255, 0.4);
+  flex: 0 0 90%;
+  scroll-snap-align: center;
   border-radius: 20px;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  scroll-snap-align: center;
-  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
-.highlight-card img {
-  width: 40%;
-  height: auto;
-  object-fit: cover;
+.highlight-card:hover {
+  transform: scale(1.02);
 }
 
-.highlight-text {
-  padding: 2em;
-}
-
-.highlight-text h2 {
-  font-size: 20px;
-  font-style: italic;
-  margin-bottom: 0.5em;
-  color: #202f55;
-}
-
-.highlight-text p {
-  font-size: 0.95em;
-  font-style: italic;
-  color: rgba(32, 47, 85, 0.9);
-  margin-bottom: 1em;
-}
-
-.highlight-text a {
-  font-style: italic;
-  font-weight: normal;
-  color: #202f55;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.highlight-text a:hover {
-  color: #000;
-  letter-spacing: 0.5px;
-}
 
 /* 三列グリッド */
 .fiction-grid {
