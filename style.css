@@ -23,11 +23,11 @@ h1 {font-size: 24px;
 .hero-text {
   white-space: nowrap;
   color: #202f55;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: 'Zen Maru Gothic', sans-serif;
   text-shadow: none;
   text-align: left;
-  bottom: 5%;
+  bottom: 10%;
 }
 
 a {text-decoration: none;
