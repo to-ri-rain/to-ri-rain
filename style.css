@@ -310,6 +310,7 @@ a:hover {  color: #000;}
 
 .highlight-card {
   flex: 0 0 100%;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   scroll-snap-align: center;
@@ -353,6 +354,9 @@ a:hover {  color: #000;}
   letter-spacing: 0.5px;
 }
 
+.highlight-card:hover {
+  transform: translateY(-6px);
+}
 
 /* 三列グリッド */
 .fiction-grid {
