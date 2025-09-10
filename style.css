@@ -15,7 +15,7 @@ h1 {font-size: 24px;
 
 .hero {
   aspect-ratio: 1 / 1;
-  width: 90%;
+  width: 100%;
   max-width: 500px;
   margin: 2em auto;
   position: relative;
