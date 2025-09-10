@@ -75,7 +75,6 @@ a {text-decoration: none;
 ul, ul li {
   list-style: none;
   margin: 0;
-  padding-left: 1em; /* ちょっと余白だけ残す */
 }
 
 
