@@ -72,6 +72,10 @@ body {
   margin: 4em auto;
 }
 
-
+hr {
+  border: none; /* ← デフォルトの立体線を消す */
+  border-top: 1px solid rgba(32, 47, 85, 0.3); /* ← 静かに淡く */
+  margin: 2em 0; /* 上下に余白 */
+}
 
 a:hover {  color: #000;}
