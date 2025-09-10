@@ -92,6 +92,27 @@ ul li {margin-bottom: 0.5em;}
 ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
 ul li a:hover {color: #000;}
 
+html {
+  scroll-behavior: smooth;
+}
+
+.toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2em;
+}
+
+.toc li {
+  margin-bottom: 0.5em;
+}
+
+.toc a {
+  font-size: 1em;
+  color: #202f55;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 
 hr {
   border: none;
