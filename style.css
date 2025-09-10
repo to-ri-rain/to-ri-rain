@@ -275,7 +275,7 @@ hr {
   display: flex;
   align-items: center;
   overflow: hidden;
-  flex: 0 0 100%;
+  flex: 0 0 90%;
   scroll-snap-align: center;
 }
 
