@@ -71,6 +71,16 @@ main ul li a {
   color: #202f55;
 }
 
+.intro {
+  font-family: 'Zen Maru Gothic', serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #2f3655;
+  margin-top: 0.5em;
+  margin-bottom: 3em;
+  opacity: 0.85;
+}
+
 ul li {margin-bottom: 0.5em;} 
 ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
 ul li a:hover {color: #000;}
