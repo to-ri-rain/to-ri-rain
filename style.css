@@ -255,7 +255,7 @@ a:hover {  color: #000;}
 .project-link {
   font-size: 0.95em;
   font-style: italic;
-  font-weight: bold;
+  font-weight: normal;
   color: #202f55;
   border-bottom: 1px solid #202f55;
   text-decoration: none;
