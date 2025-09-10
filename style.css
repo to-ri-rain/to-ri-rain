@@ -340,13 +340,11 @@ a:hover {  color: #000;}
   font-weight: normal;
   color: #202f55;
   text-decoration: none;
-  border-bottom: 1px solid #202f55;
   transition: all 0.3s ease;
 }
 
 .highlight-text a:hover {
   color: #000;
-  border-bottom: 2px solid #000;
   letter-spacing: 0.5px;
 }
 
