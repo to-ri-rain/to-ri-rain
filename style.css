@@ -65,7 +65,12 @@ a {text-decoration: none;
   line-height: 1.6;
 }
 
-main ul li a {font-size: 1.1em;}
+main ul li a {
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #202f55;
+}
+
 ul li {margin-bottom: 0.5em;} 
 ul li a {font-size: 1.1em; text-decoration: none; color: #202f55;} 
 ul li a:hover {color: #000;}
@@ -114,7 +119,5 @@ a:hover {
     transform: translateY(0);
   }
 }
-
-
 
 a:hover {  color: #000;}
