@@ -28,6 +28,8 @@ h1 {font-size: 24px;
   display: block;
   filter: brightness(85%);
   transition: filter 0.3s ease;
+  filter: saturate(80%) brightness(95%);
+  filter: blur(1px) brightness(95%) contrast(90%);
 }
 
 .hero img:hover {
@@ -91,5 +93,7 @@ hr {
   border-top: 1px solid rgba(32, 47, 85, 0.3);
   margin: 2em 0;
 }
+
+
 
 a:hover {  color: #000;}
