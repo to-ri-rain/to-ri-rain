@@ -351,3 +351,50 @@ hr {
   font-style: italic;
   color: rgba(32, 47, 85, 0.9);
 }
+
+/* 小説ページ */
+.novel-page {
+  padding-top: 2em;
+}
+
+.novel-title {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  color: #202f55;
+}
+
+.novel-lead {
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.8);
+  margin-bottom: 2.5em;
+  line-height: 1.8;
+}
+
+.novel-body p {
+  margin-bottom: 1.8em;
+  font-size: 1em;
+  line-height: 2;
+  color: #202f55;
+}
+
+.novel-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+  border-top: 1px solid rgba(32, 47, 85, 0.3);
+  padding-top: 1.5em;
+}
+
+.novel-nav a {
+  font-style: italic;
+  color: #202f55;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.novel-nav a:hover {
+  color: #000;
+  letter-spacing: 0.5px;
+}
+
