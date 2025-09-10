@@ -194,3 +194,79 @@ a:hover {
 }
 
 a:hover {  color: #000;}
+
+/* --- project page 用スタイル追加ここから --- */
+
+.project-page {
+  padding-top: 2em;
+}
+
+.project-title {
+  font-size: 24px;
+  font-style: italic;
+  color: #202f55;
+  margin-bottom: 0.5em;
+}
+
+.project-lead {
+  font-size: 1em;
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.8);
+  margin-bottom: 2.5em;
+  line-height: 1.8;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+  margin-bottom: 3em;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 1.5em;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h2 {
+  font-size: 18px;
+  color: #202f55;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.project-card p {
+  font-size: 0.95em;
+  color: rgba(32, 47, 85, 0.9);
+  line-height: 1.7;
+  margin-bottom: 1em;
+  font-style: italic;
+}
+
+.project-link {
+  font-size: 0.95em;
+  font-style: italic;
+  font-weight: bold;
+  color: #202f55;
+  border-bottom: 1px solid #202f55;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
+  letter-spacing: 0.5px;
+}
+
+/* --- project page 用スタイル追加ここまで --- */
+
