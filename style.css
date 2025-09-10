@@ -113,6 +113,41 @@ html {
   font-style: italic;
 }
 
+.toc {
+  background-color: rgba(255, 255, 255, 0.4); /* 半透明の白 */
+  padding: 1.5em;
+  border-radius: 16px; /* ← 丸み！ */
+  margin-bottom: 2em;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* ほんのり影 */
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc li {
+  margin-bottom: 0.8em;
+}
+
+.toc a {
+  font-size: 1em;
+  color: #202f55;
+  text-decoration: none;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.toc a:hover {
+  color: #000;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}
+
 
 hr {
   border: none;
