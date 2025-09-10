@@ -22,12 +22,17 @@ h1 {font-size: 24px;
 
 .hero-text {
   white-space: nowrap;
-  color: #202f55;
-  font-size: 1.5em;
+  color: #bccddb;
+  font-size: 2em;
   font-family: 'Zen Maru Gothic', sans-serif;
   text-shadow: none;
   text-align: left;
   bottom: 10%;
+  .hero-text {
+  position: absolute;
+  left: 10%;
+  transform: translateX(-10%);
+}
 }
 
 a {text-decoration: none;
