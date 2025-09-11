@@ -406,11 +406,13 @@ hr {
 
 h2.room-entry {
   font-style: italic;
-  font-size: 0.9em
-  color: rgba(32, 47, 85, 0.6);
-  letter-spacing: 0.4px;
+  font-size: 0.95em;
+  color: rgba(32, 47, 85, 0.4); /* ←もっと淡く！ */
+  letter-spacing: 0.6px;
   margin-top: 3em;
   margin-bottom: 1em;
+  font-weight: normal;
 }
+
 
 
