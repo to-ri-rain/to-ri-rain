@@ -408,7 +408,7 @@ h2.room-entry {
   color: rgba(32, 47, 85, 0.6); /* ←もっと淡く！ */
   letter-spacing: 0.6px;
   margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-bottom: 0.7em;
   font-weight: normal;
 }
 
