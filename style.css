@@ -205,7 +205,8 @@ hr {
 .project-link:hover {
   color: #000;
   border-bottom: 2px solid #000;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
+  opacity: 0.8;
 }
 
 /* fiction ページ */
@@ -257,8 +258,8 @@ hr {
 
 .highlight-text h2 a:hover {
   color: #000;
-  letter-spacing: 0.5px;
-  border-bottom: 1px solid #000;
+  letter-spacing: 1px;
+  opacity: 0.8;
 }
 
 .carousel-btn {
