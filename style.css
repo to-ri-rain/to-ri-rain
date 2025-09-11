@@ -111,15 +111,11 @@ html {
 }
 
 .toc {
-  background-color: #ffffff;
-  padding: 1.5em;
-  border-radius: 1em;
-  margin-bottom: 2em;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.8);
+  letter-spacing: 0.4px;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 
