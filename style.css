@@ -253,13 +253,6 @@ hr {
   padding-top: 2em;
 }
 
-.fiction-lead {
-  font-style: italic;
-  color: rgba(32, 47, 85, 0.8);
-  margin-bottom: 2.5em;
-  line-height: 1.8;
-}
-
 .highlight-carousel {
   display: flex;
   overflow-x: auto;
