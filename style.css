@@ -409,6 +409,7 @@ hr {
   margin-top: 0.3em;
   margin-bottom: 2em;
 }
+
 .entry-divider {
   display: flex;
   align-items: center;
@@ -416,23 +417,27 @@ hr {
   gap: 1em;
   font-size: 0.95em;
   margin: 2em 0;
+  text-decoration: none;
   color: #202f55;
 }
 
+.entry-divider:hover {
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}
+
 .entry-divider .left {
-  white-space: nowrap;
   font-style: italic;
 }
 
 .entry-divider .right {
-  white-space: nowrap;
   font-style: italic;
-  color: rgba(32, 47, 85, 0.6); /* ちょっと淡く */
+  color: rgba(32, 47, 85, 0.6);
   font-size: 0.9em;
 }
 
 .entry-divider .line {
   flex-grow: 1;
   height: 1px;
-  background: rgba(32, 47, 85, 0.2); /* うすい線 */
+  background: rgba(32, 47, 85, 0.2);
 }
