@@ -404,3 +404,12 @@ hr {
   height: 1px;
   background: rgba(32, 47, 85, 0.2);
 }
+
+.room-entry h2 {
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.8);
+  letter-spacing: 0.4px;
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
