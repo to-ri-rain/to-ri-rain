@@ -200,7 +200,6 @@ hr {
   font-style: italic;
   font-weight: normal;
   color: #202f55;
-  border-bottom: 1px solid #202f55;
   text-decoration: none;
   transition: all 0.3s ease;
 }
