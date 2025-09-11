@@ -401,3 +401,11 @@ hr {
   height: 15px;
 }
 
+.description {
+  font-size: 0.9em; /* 本文と同じ、または 0.9em にしてもOK */
+  font-style: italic;
+  color: rgba(32, 47, 85, 0.65); /* 本文より薄くて、でも読める */
+  line-height: 1.7;
+  margin-top: 0.3em;
+  margin-bottom: 2em;
+}
