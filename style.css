@@ -414,7 +414,7 @@ h2.room-entry {
   font-weight: normal;
 }
 
-.entry-divider {
+.essay-entry {
   display: block;
   width: 100%;
   text-decoration: none;
@@ -423,7 +423,7 @@ h2.room-entry {
   padding: 0.2em 0;
 }
 
-.entry-divider .left {
+.essay-entry.left {
   display: block;
   width: 100%;
   font-size: 1.3em;
@@ -435,11 +435,11 @@ h2.room-entry {
   text-align: left;
 }
 
-.entry-divider .line {
+.essay-entry.line {
   display: none;
 }
 
-.entry-divider .right {
+.essay-entry.right {
   display: block;
   text-align: right;
   margin-top: 0.3em;
@@ -448,4 +448,7 @@ h2.room-entry {
   font-style: italic;
 }
 
-
+.essay-entry:hover {
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+}
