@@ -423,7 +423,7 @@ h2.room-entry {
   padding: 0.2em 0;
 }
 
-.essay-entry.left {
+.essay-entry .left {
   display: block;
   width: 100%;
   font-size: 0.95em;
@@ -435,11 +435,11 @@ h2.room-entry {
   text-align: left;
 }
 
-.essay-entry.line {
+.essay-entry .line {
   display: none;
 }
 
-.essay-entry.right {
+.essay-entry .right {
   display: block;
   text-align: right;
   margin-top: 0.3em;
