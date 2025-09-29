@@ -453,5 +453,5 @@ h2.room-entry {
 .essay-entry:hover .left {
   letter-spacing: 1px;
   opacity: 0.85;
-  transform: translateX(5px);
+  transform: translateX(3px);
 }
