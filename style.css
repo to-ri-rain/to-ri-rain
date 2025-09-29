@@ -414,5 +414,38 @@ h2.room-entry {
   font-weight: normal;
 }
 
+.entry-divider {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #202f55;
+  margin: 2em 0;
+  padding: 0.2em 0;
+}
+
+.entry-divider .left {
+  display: block;
+  width: 100%;
+  font-size: 1.3em;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  word-break: break-word;
+  text-align: left;
+}
+
+.entry-divider .line {
+  display: none;
+}
+
+.entry-divider .right {
+  display: block;
+  text-align: right;
+  margin-top: 0.3em;
+  font-size: 0.85em;
+  color: rgba(32, 47, 85, 0.5);
+  font-style: italic;
+}
 
 
