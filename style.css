@@ -448,7 +448,7 @@ h2.room-entry {
   font-style: italic;
 }
 
-.essay-entry :hover {
+.essay-entry .hover {
   letter-spacing: 0.5px;
   opacity: 0.8;
 }
