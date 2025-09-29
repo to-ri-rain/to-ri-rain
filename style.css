@@ -447,13 +447,10 @@ h2.room-entry {
   font-size: 0.85em;
   color: rgba(32, 47, 85, 0.5);
   font-style: italic;
-  transition: letter-spacing 0.4s ease, opacity 0.4s ease;
 }
 
 
-}
-
-.essay-entry:hover {
+.essay-entry:hover .left {
   letter-spacing: 1px;
   opacity: 0.85;
   transform: translateX(2px);
