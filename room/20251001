@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>時計</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <main class="novel-page">
+    <!-- タイトル部分 -->
+    <h1 class="novel-title">人生置いてかれた気がする</h1>
+    <p class="novel-lead">2025.10.01</p>
+<hr>
+    <!-- 本文 -->
+    <div class="novel-body">
+      朝、学生相談室、昼、ゼミ（さぼって本屋）、夜、デート
+      とかいう過密スケジュールをこなし、初めてのデートなのに付き合うこととなるとかイベント多すぎて一日とは思えない。
+      わたしもかなりぐいぐい行ってたし、そもそも友達だとしても男女で家に泊めてもらうとか了承されるとおもわないじゃん。
+      べつに今日付き合いたいとか考えて行ったわけじゃないから、うれしいけど展開の速さについていけていない。ちょろいって思われる、とか言っていたけど、
+      真にちょろいのはわたしだし。
+    </div>
+
+    <!-- 戻るリンク -->
+    <div class="novel-nav">
+      <a href="../index.html">はじまりへ</a>  
+　　　<a href="../room.html">in the room</a>
+    </div>
+  </main>
+
+</body>
+</html>
