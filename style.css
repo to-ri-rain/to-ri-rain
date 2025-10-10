@@ -458,7 +458,7 @@ h2.room-entry {
 
 .reply {
   background-color: #94adda;
-  padding: 1em;
+  padding: 1.5em;
   margin: 1em 0;
-  border-radius: 6px;
+  border-radius: 12px;
 }
