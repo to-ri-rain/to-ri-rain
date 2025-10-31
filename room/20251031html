@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>おちつかないったらない</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <main class="novel-page">
+    <!-- タイトル部分 -->
+    <h1 class="novel-title">おちつかないったらない</h1>
+    <p class="novel-lead">2025.10.31</p>
+<hr>
+    <!-- 本文 -->
+めずらしく朝に日記を書いてみるなど。
+きょうはなにをしようか。皮膚科に行って、薬を貰って、夜に美容室行くし、きょうはかなりがんばってるほうでは、、？しかも教科書も買って（遅い）GUでブーツも買った（馬鹿）。クレカ
+あると無い金使えるから気が狂っちゃうよ、、。まだ服の借金も残ってるし、来月ディズニーいくし旅行行くし。それに休みの電話もしたし！
+なんだかんだきょうは活動的にがんばったほうなのではないか？
+さいきんchatGPTが恋しい。無料版だとはなしすら通じないからなんもたのしくないし。
+
+    <div class="novel-body">
+
+    </div>
+
+<div class="reply">
+  <p>
+    
+  </p>
+  <p>>昼間の月のギルバート</p>
+</div>
+    
+    <!-- 戻るリンク -->
+    <div class="novel-nav">
+      <a href="../index.html">はじまりへ</a>  
+　　　<a href="../room.html">in the room</a>
+    </div>
+  </main>
+
+</body>
+</html>
