@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>人生初えろイベ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+  <main class="novel-page">
+    <!-- タイトル部分 -->
+    <h1 class="novel-title">人生初えろイベ</h1>
+    <p class="novel-lead">2026.02.11</p>
+<hr>
+    <!-- 本文 -->
+    <div class="novel-body">
+    昨日はCMCの飲み会があって～。結構楽しかったんだよ。お酒飲んで、カラオケ行って、前よりも距離が縮まった気がしてよかった。でも、でも、聞いて？
+    終わった後に帰り道が一緒になった男がいて、わたしが「おなかへった～」って言ったら「どっかいく？」と言われたので「じゃあ飲みなおす？」って提案したらホテルに行ってしまいました、、。
+    なんで？わたし鳥貴族提案したよね？たしかに部屋に入るまで彼氏いるってことを言えなかったわたしも悪いけど、でも飲みなおす？で勘違いするのはおかしいじゃん。
+    それに彼氏いるのに男がいる飲み会たのしいの？って聞かれたけど、この集まりは合コンとかとは違うし、みんなと仲良くなりたいと思ってるから全然男として見てなかったな～
+    というのが本心だよね。でも彼氏が女友達とふたりで遊んだり、恋人が異性とふたりで出かけてもいやじゃないって言うくらいの外れ値だから油断してたってのもある。授業の友達だし、
+    彼氏はああだし、なんにもないよね～と思っていた。やっぱり男女がふたりで遊ぶのって浮気判定でいいんだ……と今回のことで再確認したね。
+
+    </div>
+
+    <!-- 戻るリンク -->
+    <div class="novel-nav">
+      <a href="../index.html">はじまりへ</a>  
+　　　<a href="../room.html">in the room</a>
+    </div>
+  </main>
+
+</body>
+</html>
