@@ -146,8 +146,18 @@ hr {
   transition: transform 0.3s ease;
 }
 
-.card:hover {
-  transform: translateY(-6px);
+.record-intro p {
+  margin: 0.5em 0;
+  font-size: 0.95em;
+  line-height: 1.9;
+  color: rgba(32, 47, 85, 0.85);
+  font-style: italic;
+}
+
+.record-note {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: rgba(32, 47, 85, 0.6); /* ←少しだけ薄く */
 }
 
 /* project ページ */
