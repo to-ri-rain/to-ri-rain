@@ -136,7 +136,7 @@ hr {
 }
 
 /* 共通カードスタイル */
-.card {
+.card record-intro{
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -144,10 +144,7 @@ hr {
   padding: 1.5em;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s ease;
-}
-
-.record-intro p {
-  margin: 0.5em 0;
+    margin: 0.5em 0;
   font-size: 0.95em;
   line-height: 1.9;
   color: rgba(32, 47, 85, 0.85);
