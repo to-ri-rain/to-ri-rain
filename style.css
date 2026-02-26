@@ -136,13 +136,16 @@ hr {
 }
 
 /* 共通カードスタイル */
-.card record-intro{
+.card {
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 20px;
   padding: 1.5em;
-    margin: 0.5em 0;
+}
+
+.record-intro p {
+  margin: 0.5em 0;
   font-size: 0.95em;
   line-height: 1.9;
   color: rgba(32, 47, 85, 0.6);
