@@ -179,15 +179,16 @@ hr {
 }
 
 .muted-label {
-  margin: 0.1em;
   font-style: italic;
   color: rgba(32, 47, 85, 0.6);
+  font-size: 0.95em;
+  
 }
 
 .muted-text {
-  margin: 0 0 0.6em;
   color:#202f55;
   line-height: 1.8;
+  font-size: 0.95em;
 }
 
 /* ＞追記リンクだけクリック可能 */
