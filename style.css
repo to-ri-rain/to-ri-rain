@@ -151,64 +151,61 @@ hr {
 }
 
 /* project ページ */
-.project-page {
-  padding-top: 2em;
+
+/* 見出し（リンクなし） */
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2em 0 0.8em;
+  font-style: italic;
 }
 
-.project-title {
-  font-size: 1.5em;
-  font-style: italic;
+.entry-title {
   color: #202f55;
-  margin-bottom: 0.5em;
 }
 
-.project-lead {
-  font-size: 1em;
+.entry-date {
+  font-size: 0.85em;
+  color: rgba(32, 47, 85, 0.45); /* 右端・薄く */
+}
+
+/* 記録本文 */
+.record {
+  margin-top: 0.8em;
+}
+
+.muted-label {
+  margin: 0.8em 0 0.2em;
   font-style: italic;
-  color: rgba(32, 47, 85, 0.8);
-  margin-bottom: 2.5em;
+  color: rgba(32, 47, 85, 0.55);
+}
+
+.muted-text {
+  margin: 0 0 0.6em;
+  color: rgba(32, 47, 85, 0.62);
   line-height: 1.8;
 }
 
-.project-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2em;
-  margin-bottom: 3em;
+/* ＞追記リンクだけクリック可能 */
+.more {
+  margin-top: 1.2em;
+  text-align: right;
 }
 
-.project-card h2 {
-  font-size: 1.3em;
-  color: #202f55;
+.more-link {
   font-style: italic;
-  margin-top: 0;
-  margin-bottom: 0.5em;
-}
-
-.project-card p {
-  font-size: 0.95em;
-  color: rgba(32, 47, 85, 0.9);
-  line-height: 1.7;
-  margin-bottom: 1em;
-  font-style: italic;
-}
-
-.project-link {
-  font-size: 1rem;
-  font-style: italic;
-  font-weight: normal;
-  color: #202f55;
+  color: rgba(32, 47, 85, 0.75);
   text-decoration: none;
   transition: all 0.3s ease;
 }
 
-.project-link:hover {
+.more-link:hover {
   color: #000;
-  opacity: 0.8;
-  letter-spacing: 1px; /* 他と合わせて小さめに変化 */
-  text-decoration: none; /* 念のため下線無効に */
-  border-bottom: none;   /* ← これで下線消す！ */
+  letter-spacing: 0.5px;
+  opacity: 0.85;
 }
+
 
 /* fiction ページ */
 .fiction-page {
