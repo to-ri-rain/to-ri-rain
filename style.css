@@ -153,30 +153,25 @@ hr {
 /* project ページ */
 
 .entry-divider-static {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1em;
-  font-size: 0.95em;
-  margin: 2em 0;
-  color: #202f55;
-}
+  display: flex; align-items: center; justify-content: space-between; gap: 1em;
+  font-size: 0.95em; margin: 2em 0;
+  text-decoration: none; color: #202f55; 
+} 
 
 .entry-divider-static .left {
-  font-style: italic;
+  font-style: italic; 
 }
 
 .entry-divider-static .right {
-  font-style: italic;
-  color: rgba(32, 47, 85, 0.6);
+  font-style: italic; color: rgba(32, 47, 85, 0.6);
   font-size: 0.9em;
 }
 
-.entry-divider-static .line {
-  flex-grow: 1;
-  height: 1px;
-  background: rgba(32, 47, 85, 0.15);
+.entry-divider-static .line { 
+  flex-grow: 1; height: 1px;
+  background: rgba(32, 47, 85, 0.2);
 }
+
 
 /* 記録本文 */
 .record {
